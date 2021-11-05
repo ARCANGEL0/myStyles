@@ -1,0 +1,46 @@
+{
+  "_from": "https://www.atom.io/api/packages/blue-neon-syntax/versions/1.2.0/tarball",
+  "_id": "blue-neon-syntax@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-wVnYJ0eDNsHXs7ZkF+8PaUbe+JSB1NJoHxXiii6jZM30/e7kEL5Wp3j+Wbu85Q02pNDXsxM5oKhAzkSW2CCVIw==",
+  "_location": "/blue-neon-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/blue-neon-syntax/versions/1.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/blue-neon-syntax/versions/1.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/blue-neon-syntax/versions/1.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/blue-neon-syntax/versions/1.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/blue-neon-syntax/versions/1.2.0/tarball",
+  "_shasum": "354f0064bb10f956907acff9cb3708c72a92e6c3",
+  "_spec": "https://www.atom.io/api/packages/blue-neon-syntax/versions/1.2.0/tarball",
+  "_where": "/tmp/apm-install-dir-2020108-4724-4o2n23.pb9z9",
+  "bugs": {
+    "url": "https://github.com/MaxShcherbakov/blue-neon-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Blue tones theme with neon lights. Made with text-shadow css property. Enjoy it now!",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/MaxShcherbakov/blue-neon-syntax#readme",
+  "keywords": [
+    "Blue Neon Syntax",
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "blue-neon-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxShcherbakov/blue-neon-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.2.0"
+}

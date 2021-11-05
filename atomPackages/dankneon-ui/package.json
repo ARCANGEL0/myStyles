@@ -1,0 +1,47 @@
+{
+  "_from": "https://www.atom.io/api/packages/dankneon-ui/versions/2.0.1/tarball",
+  "_id": "dankneon-ui@2.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-MpH3YOamMP+Wm9krTitei0T8lDmA9+BPhsB0+qh0R6qW774/h0YSnCu4q5M+Vji+hpNG28kY30mMRMsVJuEcoQ==",
+  "_location": "/dankneon-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/dankneon-ui/versions/2.0.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/dankneon-ui/versions/2.0.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/dankneon-ui/versions/2.0.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/dankneon-ui/versions/2.0.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/dankneon-ui/versions/2.0.1/tarball",
+  "_shasum": "bc00037c21dfc3bb86991dada01c4ebb5ce590ef",
+  "_spec": "https://www.atom.io/api/packages/dankneon-ui/versions/2.0.1/tarball",
+  "_where": "/tmp/apm-install-dir-2020108-4965-19hamxj.hio2",
+  "bugs": {
+    "url": "https://github.com/stephfh/dankneon-ui/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "The UI theme to the Dankneon syntax theme.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/stephfh/dankneon-ui#readme",
+  "keywords": [
+    "dankneon-ui",
+    "dankneon ui theme",
+    "dankneon ui",
+    "dankneon-theme"
+  ],
+  "license": "MIT",
+  "name": "dankneon-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephfh/dankneon-ui.git"
+  },
+  "theme": "ui",
+  "version": "2.0.1"
+}

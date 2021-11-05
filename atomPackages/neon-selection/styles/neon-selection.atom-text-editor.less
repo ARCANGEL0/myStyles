@@ -1,0 +1,20 @@
+@import "ui-variables";
+
+@-webkit-keyframes neon-selection {
+    0% {
+        box-shadow: 0 0 3px 0px rgb(16, 241, 207), 0 0 3px 0px rgb(241, 16, 16) inset;
+    }
+    100% {
+        box-shadow: 0 0 4px 0px rgb(75, 255, 255), 0 0 4px 0px rgb(75, 255, 233) inset;
+    }
+}
+
+.editor .selection .region,
+atom-text-editor .selection .region,
+:host .selection .region {
+    border: 1px solid vec3(0.23, 0.89, 0.89);
+    background: rgba(70, 249, 255, 0.1) !important;
+    box-shadow: 0 0 4px 0px rgb(75, 255, 255), 0 0 4px 0px rgb(75, 239, 255) inset;
+    -webkit-animation: neon-selection 0.1s linear infinite;
+    opacity: 1 !important;
+}

@@ -1,0 +1,126 @@
+{
+  "_from": "https://www.atom.io/api/packages/cityscape-ui/versions/1.5.0/tarball",
+  "_id": "cityscape-ui@1.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-kB0++U1X/DUfOiRidTMY/+QuLgrvILL+xYWW7EZcHXaR7ULZ9OxPEBysj/hcWUtNqPkosOHjbMb1eD0mhwWBew==",
+  "_location": "/cityscape-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/cityscape-ui/versions/1.5.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/cityscape-ui/versions/1.5.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/cityscape-ui/versions/1.5.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/cityscape-ui/versions/1.5.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/cityscape-ui/versions/1.5.0/tarball",
+  "_shasum": "b4d91bba658e153c41f0c4aee8ccd5458a5d044c",
+  "_spec": "https://www.atom.io/api/packages/cityscape-ui/versions/1.5.0/tarball",
+  "_where": "/tmp/apm-install-dir-2020107-47573-td51sr.tpdk",
+  "bugs": {
+    "url": "https://github.com/Ugotsta/cityscape-ui/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "fontSize": {
+      "title": "Font Size",
+      "description": "Change the font size for the UI.",
+      "type": "integer",
+      "default": 12,
+      "enum": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "order": 1
+    },
+    "tabSizing": {
+      "title": "Tab Sizing",
+      "description": "In Even mode all tabs will be the same size. Great for quickly closing many tabs. In Maximum mode the tabs will expand to take up the full width. In Minimum mode the tabs will only take as little space as needed and also show longer file names.",
+      "type": "string",
+      "default": "Even",
+      "enum": [
+        "Even",
+        "Maximum",
+        "Minimum"
+      ],
+      "order": 2
+    },
+    "tabCloseButton": {
+      "title": "Tab Close Button",
+      "description": "Choose the position of the close button shown in tabs.",
+      "type": "string",
+      "default": "Right",
+      "enum": [
+        "Left",
+        "Right"
+      ],
+      "order": 3
+    },
+    "animate": {
+      "title": "Enable animations",
+      "description": "Animations are costly and eat many CPUs.",
+      "type": "boolean",
+      "default": "false",
+      "order": 4
+    },
+    "buildings": {
+      "title": "Push those pesky buildings back.",
+      "description": "Them buildings want attention, pay them none.",
+      "type": "boolean",
+      "default": "false",
+      "order": 5
+    },
+    "hideDockButtons": {
+      "title": "Hide dock toggle buttons",
+      "description": "Note: When hiding the toggle buttons, opening a dock needs to be done by using the keyboard or other alternatives.",
+      "type": "boolean",
+      "default": "false",
+      "order": 6
+    },
+    "stickyHeaders": {
+      "title": "Make tree-view project headers sticky",
+      "type": "boolean",
+      "default": "false",
+      "order": 7
+    }
+  },
+  "deprecated": false,
+  "description": "The busy, neon cityscape for Atom",
+  "devDependencies": {
+    "coffeelint": "^1.9.7"
+  },
+  "engines": {
+    "atom": ">0.40.0"
+  },
+  "homepage": "https://github.com/Ugotsta/cityscape-ui#readme",
+  "keywords": [
+    "ui",
+    "dark",
+    "neon",
+    "city",
+    "night",
+    "perspective",
+    "magenta"
+  ],
+  "license": "MIT",
+  "main": "lib/main",
+  "name": "cityscape-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ugotsta/cityscape-ui.git"
+  },
+  "theme": "ui",
+  "version": "1.5.0"
+}

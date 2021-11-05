@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-1171019-14715-1fi5uox.3m9n7sc3di/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-1171019-14715-1fi5uox.3m9n7sc3di/package.tgz",
+        "spec": "/tmp/d-1171019-14715-1fi5uox.3m9n7sc3di/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-1171019-14715-8c81g7.dsek0ara4i"
+    ]
+  ],
+  "_from": "https://www.atom.io/api/packages/cyberpunk-syntax/versions/0.8.0/tarball",
+  "_id": "cyberpunk-syntax@0.8.0",
+  "_inBundle": false,
+  "_inCache": true,
+  "_integrity": "sha512-5wf/E+pg6NvLmIAgv5ESWLZLhylp/miHW9dsjaJDhO/uDmnt3JNCoEKdnmPZzO0BvYkQjYa+lhIBH+7PNcREtQ==",
+  "_location": "/cyberpunk-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/cyberpunk-syntax/versions/0.8.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/cyberpunk-syntax/versions/0.8.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/cyberpunk-syntax/versions/0.8.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/cyberpunk-syntax/versions/0.8.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/cyberpunk-syntax/versions/0.8.0/tarball",
+  "_shasum": "1f464f1e56afe0b6e9d71c23281cc19adcfa8d56",
+  "_shrinkwrap": null,
+  "_spec": "https://www.atom.io/api/packages/cyberpunk-syntax/versions/0.8.0/tarball",
+  "_where": "/tmp/apm-install-dir-2020107-35649-de3603.1w3qr",
+  "bugs": {
+    "url": "https://github.com/gilbertohasnofb/cyberpunk-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A cyberpunk syntax theme",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">= 1.13"
+  },
+  "homepage": "https://github.com/gilbertohasnofb/cyberpunk-syntax#readme",
+  "name": "cyberpunk-syntax",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilbertohasnofb/cyberpunk-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.8.0"
+}

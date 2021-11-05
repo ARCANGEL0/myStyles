@@ -1,0 +1,50 @@
+{
+  "_from": "https://www.atom.io/api/packages/cyberwave-syntax/versions/0.12.0/tarball",
+  "_id": "cyberwave-syntax@0.12.0",
+  "_inBundle": false,
+  "_integrity": "sha512-9XzBOS9FnicnpiNR76uumXsL2qU6JKMcoF/WdenWGqW+HX50n0xIBLc0/VmwT1mv2WU99P89INWcEvkDP3K9XA==",
+  "_location": "/cyberwave-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/cyberwave-syntax/versions/0.12.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/cyberwave-syntax/versions/0.12.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/cyberwave-syntax/versions/0.12.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/cyberwave-syntax/versions/0.12.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/cyberwave-syntax/versions/0.12.0/tarball",
+  "_shasum": "f1247349187f1a6fc3aff23c98b643960c013356",
+  "_spec": "https://www.atom.io/api/packages/cyberwave-syntax/versions/0.12.0/tarball",
+  "_where": "/tmp/apm-install-dir-2020107-35670-12l8drl.keeu",
+  "author": {
+    "name": "Naomi Goddard-Kramer"
+  },
+  "bugs": {
+    "url": "https://github.com/NahomieG/cyberwave-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A cyberwave theme based off of oceanic next and the featured theme on the homepage for Atom IDE",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/NahomieG/cyberwave-syntax#readme",
+  "keywords": [
+    "atom",
+    "syntax",
+    "cyberwave",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "cyberwave-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NahomieG/cyberwave-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.12.0"
+}

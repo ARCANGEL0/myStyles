@@ -1,0 +1,85 @@
+@import "ui-variables";
+
+// TREE-VIEW
+.tree-view {
+
+ font-size: 12px;
+ .list-item {
+   line-height: 21px !important;
+   color: @futurism-color !important;
+ }
+ .list-item.selected {
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+   color: @futurism-color !important;
+   background: rgba(0, 170, 255, 0.1) !important;
+   box-shadow: inset 0px 0px 8px 0px rgba(0, 170, 255, 0.7);
+ }
+ .list-item:hover {
+   color: @futurism-color !important;
+   background: rgba(0, 170, 255, 0.1) !important;
+   box-shadow: inset 0px 0px 8px 0px rgba(0, 170, 255, 0.7);
+ }
+ .selected:before, .selected:before {
+   height: 18px !important;
+ }
+ .icon:before {
+   font-size: 11px;
+   width: 10px;
+   height: 10px;
+   opacity: .6;
+   position: relative;
+   top: 0px;
+ }
+ .header:before {
+   font-size: 10px !important;
+   opacity: .6;
+   margin-right: 0px !important;
+ }
+}
+
+.tree-view {
+  font-size: @font-size;
+  //background: @tree-view-background-color;
+  box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.7);
+  background-color: rgba(36, 255, 0, 0.1);
+  background: -webkit-linear-gradient(top,  rgba(20, 255, 0, 0.08) 0%,rgba(59, 255, 0, 0.19) 13%,rgba(59, 255, 0, 0.27) 31%,rgba(43, 255, 0, 0.29) 41%,rgba(36, 255, 0, 0.31) 53%,rgba(66, 255, 0, 0.27) 66%,rgba(28, 255, 0, 0.22) 80%,rgba(43, 255, 0, 0.18) 93%,rgba(43, 255, 0, 0.08) 100%);
+
+  .selected:before {
+    background: none !important;
+    //box-shadow: inset -3px 0 0 rgba(0,0,0, .05);
+  }
+}
+
+.tree-view-resizer {
+  .tree-view-resize-handle {
+    width: 8px;
+  }
+}
+
+.focusable-panel {
+  opacity: 1;
+  //background: #303030;
+  box-shadow: inset -3px 0 0 rgba(0,0,0, .05);
+
+  &:focus {
+    //background: #282828;
+
+    .selected:before {
+      //background: @background-color-selected;
+    }
+
+    .selected > .name,
+    .selected > .name:before,
+    .selected > .list-item > .name,
+    .selected > .list-item > .name:before {
+      //color: #fff !important;
+    }
+  }
+}
+
+[data-show-on-right-side=true] {
+  .tree-view .selected:before,
+  .focusable-panel {
+    box-shadow: inset 3px 0 0 rgba(0,0,0, .05);
+  }
+}

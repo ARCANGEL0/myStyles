@@ -1,0 +1,326 @@
+@import "syntax-variables";
+@import "ui-variables";
+
+// cursor animation thanks to muchweb: https://github.com/muchweb/atom-neon-cursor
+
+@-webkit-keyframes neon-cursor-body {
+    0% {
+        border: 1px solid rgb(255, 97, 97);
+        box-shadow: 0 0 4px 0px rgb(255, 54, 54), 0 0 4px 0px rgb(255, 54, 54) inset;
+    }
+    80% {
+        border: 1px solid rgb(255, 0, 0);
+        box-shadow: 0 0 4px 0px rgba(255, 54, 54, 0), 0 0 4px 0px rgba(255, 54, 54, 0) inset;
+    }
+    100% {
+        border: 1px solid rgb(255, 0, 0);
+        box-shadow: 0 0 4px 0px rgba(255, 54, 54, 0), 0 0 4px 0px rgba(255, 54, 54, 0) inset;
+    }
+}
+
+@-webkit-keyframes neon-cursor-pulse {
+    0% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+    20% {
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: scale(1.5);
+        opacity: 0;
+    }
+}
+
+// selection animation thanks to muchweb: https://github.com/muchweb/atom-neon-selection
+
+@-webkit-keyframes neon-selection {
+    0% {
+        box-shadow: 0 0 3px 0px rgb(241, 16, 16), 0 0 3px 0px rgb(241, 16, 16) inset;
+    }
+    100% {
+        box-shadow: 0 0 4px 0px rgb(255, 57, 57), 0 0 4px 0px rgb(255, 57, 57) inset;
+    }
+}
+
+atom-text-editor .selection .region {
+    border: 1px solid rgb(255, 57, 57);
+    background: rgba(255, 57, 57, 0.1) !important;
+    box-shadow: 0 0 4px 0px rgb(255, 57, 57), 0 0 4px 0px rgb(255, 57, 57) inset;
+    -webkit-animation: neon-selection 0.1s linear infinite;
+    opacity: 1 !important;
+}
+
+atom-text-editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+  -webkit-filter: contrast(@contrast);
+  -webkit-filter: saturate(@saturation);
+
+  // Cursor
+  :not(.insert-mode) {
+      .cursors {
+          &>.cursor {
+              border: 1px solid rgb(255, 0, 0);
+              -webkit-animation: neon-cursor-body 1s linear infinite;
+
+              &:after {
+                  content: '';
+                  border: 1px solid rgb(255, 97, 97);
+                  width: 100%;
+                  height: 100%;
+                  position: absolute;
+                  left: 0;
+                  top: 0;
+                  -webkit-animation: neon-cursor-pulse 1s linear infinite;
+              }
+          }
+
+          &.blink-off {
+              &>.cursor {
+                  visibility: visible !important;
+              }
+          }
+      }
+  }
+
+  .vim-mode:not(.insert-mode) {
+      .scroll-view .cursors {
+          .cursor {
+              background-color: inherit;
+              border: 1px solid rgb(255, 0, 0);
+              opacity: inherit;
+              visibility: visible;
+          }
+      }
+  }
+
+}
+
+atom-text-editor {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+  -webkit-filter: contrast(@contrast);
+  -webkit-filter: saturate(@saturation);
+
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
+
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+
+  .wrap-guide {
+    color: @syntax-wrap-guide-color;
+  }
+
+  .leading-whitespace, .indent-guide, .invisible-character, .wrap-guide {
+    opacity: @opacity-less;
+  }
+
+  .gutter {
+    background-color: @syntax-gutter-background-color;
+    color: @syntax-gutter-text-color;
+
+    .line-number {
+      &.cursor-line {
+        //background-color: @syntax-gutter-background-color-selected;
+        //background: rgba(58, 175, 255, .1) !important;
+        color: @syntax-gutter-text-color-selected;
+        text-shadow: 0px 0px @blur rgba(255, 0, 0, @opacity);
+      }
+
+      &.cursor-line-no-selection {
+        color: @syntax-gutter-text-color-selected;
+        //background: rgba(58, 175, 255, .1) !important;
+        text-shadow: 0px 0px @blur rgba(255, 0, 0, @opacity);
+      }
+    }
+  }
+
+  .search-results .syntax--marker .region {
+    background-color: transparent;
+    border: @syntax-result-marker-color;
+  }
+
+  .search-results .syntax--marker.current-result .region {
+    border: @syntax-result-marker-color-selected;
+  }
+}
+
+atom-text-editor.is-focused {
+  .cursor {
+    border-color: red;;
+  }
+}
+
+.syntax--comment {
+  font-style: italic;
+  color: #c82aff;
+  text-shadow: 0px 0px 6px 2px #c82aff, 0px 0px 6px 12px #2a86ff;
+}
+
+.syntax--string {
+  color: rgba(170, 175, 235, 0.93);
+  text-shadow: 0px 0px @blur rgba(170, 175, 219, @opacity);
+}
+
+.syntax--constant.syntax--numeric {
+  color: rgba(143, 194, 187, 0.73);
+  text-shadow: 0px 0px @blur rgba(119, 194, 187, @opacity);
+}
+
+.syntax--constant.syntax--character, .syntax--constant.syntax--other {
+  color: rgba(34, 255, 153, 0.87);
+  text-shadow: 0px 0px @blur rgba(34, 200, 153, @opacity);
+}
+
+.syntax--constant.syntax--language {
+  color: #bDbe82;
+  text-shadow: 0px 0px @blur rgba(189, 190, 130, @opacity);
+}
+
+.syntax--storage {
+  color: rgba(139, 108, 207, 1);
+  text-shadow: 0px 0px @blur rgba(139, 93, 223, @opacity);
+}
+
+.syntax--meta.syntax--function-call {
+  color: rgba(203, 175, 108, 1);
+  text-shadow: 0px 0px @blur rgba(203, 175, 108, @opacity);
+}
+
+.syntax--support.syntax--function {
+  color: #ADAeB2;
+  text-shadow: 0px 0px @blur rgba(189, 190, 130, @opacity);
+}
+
+syntax--variable.syntax--other.external-symbol {
+  color: #BBDFDD;
+  text-shadow: 0px 0px @blur rgba(187, 223, 221, @opacity);
+}
+
+.syntax--variable.syntax--language,
+.syntax--variable.syntax--other {
+  color: #3aafff;
+  text-shadow: 0px 0px @blur rgba(58, 175, 255, @opacity);
+}
+
+.syntax--variable.syntax--parameter {
+  color: #33b6a9;
+  text-shadow: 0px 0px @blur rgba(5, 214, 249, @opacity);
+}
+
+.syntax--keyword {
+  color: #bB7Dbf;
+  text-shadow: 0px 0px @blur rgba(155, 159, 253, @opacity);
+}
+
+.syntax--entity {
+  &.syntax--name.syntax--type {
+    color: rgba(175, 119, 169, 0.93);
+    text-shadow: 0px 0px @blur rgba(175, 119, 169, @opacity);
+  }
+
+  &.syntax--name.syntax--class {
+    color: #B998DF;
+    text-shadow: 0px 0px @blur rgba(185, 152, 223, @opacity);
+  }
+
+  &.syntax--name.syntax--structure {
+    color: rgba(34, 255, 153, 0.87);
+    text-shadow: 0px 0px @blur rgba(185, 152, 223, @opacity);
+  }
+
+  &.syntax--name.syntax--tag {
+    color: #49a6d2;
+    text-shadow: 0px 0px @blur rgba(73, 166, 210, @opacity);
+  }
+
+  &.syntax--name.syntax--function {
+    color: rgba(18, 255, 169, 0.97);
+    text-shadow: 0px 0px @blur rgba(34, 255, 169, @opacity);
+  }
+
+  &.syntax--name.syntax--function.syntax--io {
+    color: #DFB3AC;
+    text-shadow: 0px 0px @blur rgba(223, 179, 172, @opacity);
+  }
+
+  &.syntax--name.syntax--function.syntax--misc {
+    color: #E3E4A9;
+    text-shadow: 0px 0px @blur rgba(227, 228, 169, @opacity);
+  }
+
+  &.syntax--name.syntax--function.syntax--predicate {
+    color: #A5DF93;
+    text-shadow: 0px 0px @blur rgba(165, 223, 147, @opacity);
+  }
+
+  &.syntax--other.syntax--attribute-name {
+    color: rgba(73, 134, 194, 0.8);
+    text-shadow: 0px 0px @blur rgba(73, 134, 194, @opacity);
+  }
+}
+
+.syntax--meta.syntax--class,
+.syntax--entity.syntax--name.syntax--class,
+.syntax--entity.syntax--name.syntax--type.syntax--class {
+  color: #ff4377;
+  text-shadow: 0px 0px @blur rgba(255, 51, 153, @opacity);
+}
+
+.syntax--support.syntax--class {
+  color: rgba(239, 106, 167, 0.87);
+  text-shadow: 0px 0px @blur rgba(239, 106, 167, @opacity);
+}
+
+.syntax--invalid {
+  color: #DFDFD5;
+  text-shadow: 0px 0px @blur #CC1B27;
+}
+
+.syntax--string .syntax--source {
+  font-style: italic;
+  color: rgba(51, 153, 255, 1);
+  text-shadow: 0px 0px @blur rgba(0, 153, 255, @opacity);
+}
+
+.syntax--entity.syntax--name.syntax--tag {
+  color: #49a6d2;
+  text-shadow: 0px 0px @blur rgba(73, 166, 210, @opacity);
+}
+
+.syntax--markup.syntax--heading {
+  font-weight: bold;
+  color: rgba(18, 255, 169, 0.97);
+  text-shadow: 0px 0px @blur rgba(34, 255, 169, @opacity);
+}
+
+.syntax--markup.syntax--italic {
+  font-style: italic;
+  color: #bB7Dbf;
+  text-shadow: 0px 0px @blur rgba(155, 169, 253, @opacity);
+}
+
+.syntax--markup.syntax--bold {
+  font-weight: bold;
+  color: #bB7Dbf;
+  text-shadow: 0px 0px @blur rgba(155, 169, 253, @opacity);
+}
+
+.syntax--markup.syntax--underline {
+  text-decoration: underline;
+  color: rgba(139, 108, 207, 1);
+  text-shadow: 0px 0px @blur rgba(139, 93, 223, @opacity);
+}
+
+.syntax--gfm {
+  .syntax--link .syntax--entity {
+    text-decoration: underline;
+    color: #3aafff;
+    text-shadow: 0px 0px @blur rgba(58, 175, 255, @opacity);
+  }
+}

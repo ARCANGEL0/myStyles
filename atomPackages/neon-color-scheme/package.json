@@ -1,0 +1,45 @@
+{
+  "_from": "https://www.atom.io/api/packages/neon-color-scheme/versions/1.0.0/tarball",
+  "_id": "neon-color-scheme@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-e9i/TQisWIJSNhvdROwcUIytqutDXRYeFZsINQMZqpnk7rg/molcIb2mndaR+AP2ZO6bEQnS3tyQO+4EKjcboQ==",
+  "_location": "/neon-color-scheme",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/neon-color-scheme/versions/1.0.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/neon-color-scheme/versions/1.0.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/neon-color-scheme/versions/1.0.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/neon-color-scheme/versions/1.0.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/neon-color-scheme/versions/1.0.0/tarball",
+  "_shasum": "fc171ca4cb0a0950b3afe2d1c055ff119fe60466",
+  "_spec": "https://www.atom.io/api/packages/neon-color-scheme/versions/1.0.0/tarball",
+  "_where": "/tmp/apm-install-dir-2020107-38281-l72203.no3mc",
+  "bugs": {
+    "url": "https://github.com/MattDMo/neon-color-scheme-atom-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A colorful bright-on-black syntax color theme for Atom. Its aim is to make as many languages as possible look as good as possible.",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/MattDMo/neon-color-scheme-atom-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "neon-color-scheme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattDMo/neon-color-scheme-atom-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.0.0"
+}

@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3236-1qw4tba.sz9ak5u3di\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3236-1qw4tba.sz9ak5u3di\\package.tgz",
+        "spec": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3236-1qw4tba.sz9ak5u3di\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\apm-install-dir-120114-3236-1nihvw1.t4plqbbj4i"
+    ]
+  ],
+  "_from": "..\\d-120114-3236-1qw4tba.sz9ak5u3di\\package.tgz",
+  "_id": "futurism-dark-syntax@2.1.0",
+  "_inCache": true,
+  "_location": "/futurism-dark-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3236-1qw4tba.sz9ak5u3di\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3236-1qw4tba.sz9ak5u3di\\package.tgz",
+    "spec": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3236-1qw4tba.sz9ak5u3di\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-120114-3236-1qw4tba.sz9ak5u3di\\package.tgz",
+  "_shasum": "37599d45ed323a8882880503e59a56d26cdf0877",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3236-1qw4tba.sz9ak5u3di\\package.tgz",
+  "_where": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\apm-install-dir-120114-3236-1nihvw1.t4plqbbj4i",
+  "bugs": {
+    "url": "https://github.com/Ugotsta/futurism-dark-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "Neon syntax theme for Atom inspired by and based on the Farzher Neon Sublime Text 2/3 theme, using CSS text-shadow to implement the glow effect",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/Ugotsta/futurism-dark-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "futuristic",
+    "dark"
+  ],
+  "license": "MIT",
+  "name": "futurism-dark-syntax",
+  "optionalDependencies": {},
+  "readme": "# Futurism Dark Syntax\n\nFuturistic, neon syntax theme for Atom inspired by and based on the Farzher Neon Sublime Text 2/3 theme, using CSS text-shadow for glow effect.\n\n![JS](screenshots/futurism-syntax-js.png?raw=true \"JS\")\n![CSS](screenshots/futurism-syntax-css.png?raw=true \"CSS\")\n![HTML](screenshots/futurism-syntax-html.png?raw=true \"HTML\")\n\nDesigned to work with [Futurism UI](https://atom.io/themes/futurism-ui) theme.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ugotsta/futurism-dark-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "2.1.0"
+}

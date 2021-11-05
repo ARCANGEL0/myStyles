@@ -1,0 +1,53 @@
+@import "ui-variables";
+
+.tooltip {
+  @tip-background-color: @futurism-color;
+  @tip-text-color: #000;
+  white-space: nowrap;
+
+  .keystroke {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: @tip-background-color;
+    padding-left: 2px;
+    background-color: #000;
+    border-radius: @component-border-radius;
+  }
+
+  &.in { opacity: 1; }
+
+  .tooltip-inner {
+    box-shadow: 0px 0px 8px 0px rgba(90, 255, 70, 0.3);
+    line-height: 19px;
+    border-radius: @component-border-radius;
+    background-color: @tip-background-color;
+    color: @tip-text-color;
+    white-space: nowrap;
+    max-width: none;
+  }
+
+  &.top .tooltip-arrow {
+    border-top-color: @tip-background-color;
+  }
+  &.top-left .tooltip-arrow {
+    border-top-color: @tip-background-color;
+  }
+  &.top-right .tooltip-arrow {
+    border-top-color: @tip-background-color;
+  }
+  &.right .tooltip-arrow {
+    border-right-color: @tip-background-color;
+  }
+  &.left .tooltip-arrow {
+    border-left-color: @tip-background-color;
+  }
+  &.bottom .tooltip-arrow {
+    border-bottom-color: @tip-background-color;
+  }
+  &.bottom-left .tooltip-arrow {
+    border-bottom-color: @tip-background-color;
+  }
+  &.bottom-right .tooltip-arrow {
+    border-bottom-color: @tip-background-color;
+  }
+}

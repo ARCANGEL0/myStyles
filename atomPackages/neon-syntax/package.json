@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3624-6p57o0.kyysct0529\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3624-6p57o0.kyysct0529\\package.tgz",
+        "spec": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3624-6p57o0.kyysct0529\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\apm-install-dir-120114-3624-1xgd8wr.ly4m5i2j4i"
+    ]
+  ],
+  "_from": "..\\d-120114-3624-6p57o0.kyysct0529\\package.tgz",
+  "_id": "neon-syntax@0.3.7",
+  "_inCache": true,
+  "_location": "/neon-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3624-6p57o0.kyysct0529\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3624-6p57o0.kyysct0529\\package.tgz",
+    "spec": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3624-6p57o0.kyysct0529\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-120114-3624-6p57o0.kyysct0529\\package.tgz",
+  "_shasum": "7c8de3241377c577c745c2631e43d83db78c2289",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3624-6p57o0.kyysct0529\\package.tgz",
+  "_where": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\apm-install-dir-120114-3624-1xgd8wr.ly4m5i2j4i",
+  "bugs": {
+    "url": "https://github.com/anomaly256/neon-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "Neon syntax theme for Atom inspired by and based on the Farzher Neon Sublime Text 2/3 theme, using CSS text-shadow to implement the glow effect",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/anomaly256/neon-syntax#readme",
+  "license": "MIT",
+  "name": "neon-syntax",
+  "optionalDependencies": {},
+  "readme": "# neon-syntax theme\n\nNeon syntax theme for Atom inspired by and based on the Farzher Neon Sublime Text 2/3 theme, using CSS text-shadow to implement the glow effect\n\n![Screenshot](https://cloud.githubusercontent.com/assets/421854/3365790/cf321014-fb35-11e3-9ac4-fbb48dd06361.png)\n\nIf you find that the blur or intensity are too high for your comfort, you can edit the variables in the package's stylesheets/syntax-variables.less to tone down the colours or reduce the blur radius on the text-shadow.  Eventually I intend to provide a settings screen to adjust these values easily once I figure out how to add a settings pane to Atom's Preferences view.\n\n```less\n// Theme specific vars\n@opacity: 0.8;\n@blur: 15px;\n@contrast: 200%;\n@saturation: 200%;\n```\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anomaly256/neon-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.3.7"
+}

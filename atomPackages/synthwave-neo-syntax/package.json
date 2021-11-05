@@ -1,0 +1,43 @@
+{
+  "_from": "https://www.atom.io/api/packages/synthwave-neo-syntax/versions/0.2.0/tarball",
+  "_id": "synthwave-neo-syntax@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-acYTOS6I0bNYGy34cVJGXEF4KqSKesiXAv12QgXrFZR+gXIPt/qa7isjeF9/X3Bo+Bkx+FatpueW6OTKq4MXog==",
+  "_location": "/synthwave-neo-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/synthwave-neo-syntax/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/synthwave-neo-syntax/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/synthwave-neo-syntax/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/synthwave-neo-syntax/versions/0.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/synthwave-neo-syntax/versions/0.2.0/tarball",
+  "_shasum": "5ac038bdde73dcf4ace869986fb76500ca9406d2",
+  "_spec": "https://www.atom.io/api/packages/synthwave-neo-syntax/versions/0.2.0/tarball",
+  "_where": "/tmp/apm-install-dir-2020108-5004-mv7gc6.77vb",
+  "bugs": {
+    "url": "https://github.com/gilbertohasnofb/synthwave-neo-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A synthwave syntax theme",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">= 1.13"
+  },
+  "homepage": "https://github.com/gilbertohasnofb/synthwave-neo-syntax#readme",
+  "name": "synthwave-neo-syntax",
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilbertohasnofb/synthwave-neo-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.2.0"
+}

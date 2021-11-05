@@ -1,0 +1,34 @@
+.tree-view-resizer {
+  border-right: 1px solid @base-border-color;
+}
+
+/* Hides the "Project"-Tab in TreeView */
+&[data-type="TreeView"] {
+    visibility: hidden;
+}
+
+/* Hides Tabicons */
+.atom-dock-inner {
+    .pane .list-inline {
+        .tab {
+            .title:before {
+                display: none;
+            }
+        }
+    }
+}
+
+.tree-view {
+    margin-top: -15px;
+    margin-left: 5px;
+    color: @text-color;
+    background-color: @tree-view-background-color;
+
+  .list-item.selected {
+    color: @text-color-selected;
+  }
+
+  .status-ignored {
+      opacity: 0.5;
+  }
+}

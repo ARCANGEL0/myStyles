@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3984-1xss2ko.u6glplow29\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3984-1xss2ko.u6glplow29\\package.tgz",
+        "spec": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3984-1xss2ko.u6glplow29\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\apm-install-dir-120114-3984-1ddxymu.yicj6bhuxr"
+    ]
+  ],
+  "_from": "..\\d-120114-3984-1xss2ko.u6glplow29\\package.tgz",
+  "_id": "neon-selection@0.3.2",
+  "_inCache": true,
+  "_location": "/neon-selection",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3984-1xss2ko.u6glplow29\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3984-1xss2ko.u6glplow29\\package.tgz",
+    "spec": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3984-1xss2ko.u6glplow29\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-120114-3984-1xss2ko.u6glplow29\\package.tgz",
+  "_shasum": "4722018f212c5c5ac0f4a693db68732d28360e87",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\d-120114-3984-1xss2ko.u6glplow29\\package.tgz",
+  "_where": "C:\\Users\\PC\\AppData\\Local\\Temp\\AtomPortableTemp\\apm-install-dir-120114-3984-1ddxymu.yicj6bhuxr",
+  "bugs": {
+    "url": "https://github.com/muchweb/atom-neon-selection/issues"
+  },
+  "dependencies": {},
+  "description": "Glowing selection style, inspired by Enligntenment's Terminology",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.120.0"
+  },
+  "homepage": "https://github.com/muchweb/atom-neon-selection#readme",
+  "license": "MIT",
+  "main": "./lib/neon-selection",
+  "name": "neon-selection",
+  "optionalDependencies": {},
+  "readme": "# Neon Selection\n\nIs your Atom running way too quickly? Looking for a way to make use of all these gigahertz? Want to justify purchase of that gaming PC?\n\nIntroducing glowing selection style, inspired by Enligntenment's Terminology!\n\n![Preview](https://cloud.githubusercontent.com/assets/7157049/3757735/c90bb27a-183c-11e4-87b0-5c2f504b5685.gif)\n\n---\n\nTo complement your neon selection, there is also [Neon Cursor](https://atom.io/packages/neon-cursor) available.\n\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muchweb/atom-neon-selection.git"
+  },
+  "version": "0.3.2"
+}

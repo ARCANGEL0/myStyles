@@ -1,0 +1,48 @@
+{
+  "_from": "https://www.atom.io/api/packages/punk-runner-syntax/versions/0.7.1/tarball",
+  "_id": "punk-runner-syntax@0.7.1",
+  "_inBundle": false,
+  "_integrity": "sha512-4ISj08vZ4k/xJndMGYqxifMGUfPSTK4FKcqQiEIYkAxPWquK46EK7fkrIazAFj6XMqqwQAi5dflIXjWz7HnO6g==",
+  "_location": "/punk-runner-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/punk-runner-syntax/versions/0.7.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/punk-runner-syntax/versions/0.7.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/punk-runner-syntax/versions/0.7.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/punk-runner-syntax/versions/0.7.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/punk-runner-syntax/versions/0.7.1/tarball",
+  "_shasum": "473e00bb7715bf51ab7434e30e730ed0522c9231",
+  "_spec": "https://www.atom.io/api/packages/punk-runner-syntax/versions/0.7.1/tarball",
+  "_where": "/tmp/apm-install-dir-2020107-36358-863zof.htkl",
+  "bugs": {
+    "url": "https://github.com/theedgesofben/punk-runner-syntax/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A Cyperpunk-like syntax",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/theedgesofben/punk-runner-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "punk runner",
+    "cyberpunk",
+    "blade runner"
+  ],
+  "license": "MIT",
+  "name": "punk-runner-syntax",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theedgesofben/punk-runner-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.7.1"
+}
