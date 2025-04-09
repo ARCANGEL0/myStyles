@@ -1,0 +1,491 @@
+/* ==UserStyle==
+@name         WhatsApp Cyberpunk 2077
+@author       ARCANGELO
+==/UserStyle== */
+@-moz-document url-prefix("https://web.whatsapp.com/") {
+
+    :root {
+
+        --conversation-panel-background: var(--cyber-bg-base) !important;
+
+        /* Cyberpunk colors */
+        --cyber-bg-base: #0d0d0d; /* Dark base */
+        --cyber-bg-subtle: #1c1c1c; /* Subtle background */
+        --cyber-bg-subtle-light: #212121; /* Light subtle background */
+        --cyber-bg-subtle-hover: #282828; /* Hover effect */
+        --cyber-fg-base: #00ffcc; /* Base text color */
+        --cyber-fg-subtle: #a0a0a0; /* Subtle text color */
+        --cyber-accent: #ff0000d9; /* Accent color */
+        --cyber-accent-hover: #ff7505; /* Accent hover color */
+        --cyber-fg-err: #ff8080; /* Error text color */
+        --cyber-fg-suc: #99ffe4; /* Success text color */
+        --cyber-bg-subtle-transparent: #28282852; /* Transparent subtle background */
+    }
+
+    * {
+        font-family: "Geist", sans-serif !important;
+        --intro-background: #000;
+        --conversation-panel-background: var(--cyber-bg-base) !important;
+        --background-default: var(--cyber-bg-base) !important;
+        --incoming-background: var(--cyber-bg-subtle) !important;
+        --dropdown-background: var(--cyber-bg-subtle) !important;
+        --search-container-background: var(--cyber-bg-base) !important;
+        --search-input-background: var(--cyber-bg-subtle) !important;
+        --unread-marker-background: var(--cyber-accent) !important;
+        --panel-header-background: var(--cyber-bg-base) !important;
+        --filters-item-active-background: var(--cyber-fg-suc) !important;
+        --filters-item-background: var(--cyber-bg-subtle-light) !important;
+        --filters-item-color: var(--cyber-fg-subtle) !important;
+        --compose-input-background: var(--cyber-bg-subtle) !important;
+        --media-viewer-background: var(--cyber-bg-base) !important;
+        --button-primary-background: var(--cyber-accent) !important;
+        --button-primary-background-hover: var(--cyber-accent-hover) !important;
+    }
+ 
+    #app div:has(> header:not(header ~ * > header)) {
+        position: fixed;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        max-width: 100%;
+        
+        /*The list of chats*/
+        > div:nth-child(4) {
+            flex: 0 0 25em;
+            max-width: 25em;
+        }
+        
+        /*The pane that describes how the pane to the right of chat is placed (I think)*/
+        > div:nth-child(2) {
+            max-width: 84em; /* why is the fontsize for this element different?*/
+        }
+        
+    }
+    
+    /*Remove meta ai shit*/
+    [aria-label='Meta AI'] {
+        display: none;
+    }
+    /* Additional customizations */
+    .xy80clv {
+        border-left-width: 0px;
+    }
+
+    .x1a0jr7w {
+        border-right: none;
+    }
+
+    ._ak1k,._as59 {
+        border-left: none
+    }
+._ak72 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 72px;
+  pointer-events: all;
+  background-color: rgb(219, 14, 14);
+  position: relative;
+
+  margin-bottom: 2px;
+  color: rgba(255, 120, 120, 0.86);
+  background:
+rgba(36, 0, 5, 0.68);
+    background-image: none;
+    background-size: auto;
+  border-left:
+1px solid rgba(255, 50, 80, 0.52);
+  box-shadow: 0 0 2px rgba(255, 0, 60, 0.1), inset 0 0 8px rgba(0, 0, 0, 0.5);
+  clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(100% - 20px), 
+    calc(100% - 20px) 100%, 
+    0% 100%
+  );  animation:
+idle-flicker 8s infinite alternate;
+  background-image: linear-gradient( rgba(255, 0, 0, .11) 1px, transparent 1px );
+  background-size: 100% 2px;
+  clip-path: polygon( 0% 0%, 100% 0%, 100% calc(100% - 20px), calc(100% - 20px) 100%, );
+}
+    
+    
+    ._ak72:hover {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 72px;
+  pointer-events: all;
+  background-color: rgb(250, 201, 11);
+  position: relative;
+
+  margin-bottom: 2px;
+  color: rgba(255, 208, 120, .86);
+  background:
+rgba(36, 34, 0, .68);
+    background-image: none;
+    background-size: auto;
+  border-left:
+1px solid rgba(255, 211, 50, .52);
+  box-shadow: 0 0 2px rgba(255, 204, 0, .1), inset 0 0 8px rgba(0, 0, 0, .5);
+  clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(100% - 20px), 
+    calc(100% - 20px) 100%, 
+    0% 100%
+  );  animation:
+idle-flicker 8s infinite alternate;
+  background-image: linear-gradient( rgba(255, 208, 0, .11) 1px, transparent 1px );
+  background-size: 100% 2px;
+  clip-path: polygon( 0% 0%, 100% 0%, 100% calc(100% - 20px), calc(100% - 20px) 100%, );
+}
+    
+    .xso031l {
+        border-bottom: none;
+    }
+    
+    .x1a0jr7w {
+
+  background-color: rgb(219, 14, 14);
+  position: relative;
+  margin-bottom: 2px;
+  color: rgba(255, 120, 120, 0.86);
+  background:
+rgba(36, 0, 5, 0.68);
+    background-image: none;
+    background-size: auto;
+  background-image: none;
+  background-size: auto;
+  border-left:
+3px solid rgba(255, 50, 80, 0.52);
+  box-shadow: 0 0 2px rgba(255, 0, 60, 0.1), inset 0 0 8px rgba(0, 0, 0, 0.5);
+  clip-path: polygon( 0% 0%, 100% 0%, 100% calc(100% - 5px), calc(100% - 5px) 100%, );
+  animation:
+idle-flicker 8s infinite alternate;
+  background-image: linear-gradient( rgba(255, 0, 0, 0.05) 1px, transparent 1px );
+  background-size: 100% 2px;
+        
+    }
+  ._ak72._ak7p {
+background: rgba(255, 145, 0, .15); /* Semi-transparent red */
+  border: 1px solid rgba(255, 145,0, 0.7); /* Neon border */
+  box-shadow: 
+    0 0 10px rgba(255, 145, 0, 0.8), /* Inner glow */
+    0 0 20px rgba(255, 145, 0, 0.6); /* Outer glow */
+  
+  /* Diagonal corner cut */
+  clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(100% - 20px), 
+    calc(100% - 20px) 100%, 
+    0% 100%
+  );
+  
+  /* Cyberpunk scanline effect */
+  background-image: 
+    linear-gradient(
+      rgba(255, 145, 0, 0.1) 1px,
+      transparent 1px
+    );
+  background-size: 100% 2px;
+  animation: scan 2s linear infinite;
+} 
+    
+    ._ak72._ak7p::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    0deg,
+    transparent 60%,
+    rgba(255, 255, 255, 0.2) 61%,
+    rgba(255, 255, 255, 0.2) 64%,
+    transparent 65%
+  );
+  pointer-events: none;
+  mix-blend-mode: screen;
+}
+    ._al_c {
+        background-color: var(--cyber-bg-base) !important;
+        border-left: none;
+    }
+
+    .dark {
+        --app-background: #0d0d0d !important;
+    }
+    @keyframes scan {
+  0% { background-position: 0 0; }
+  100% { background-position: 0 100%; }
+}
+
+    ._ak8l {
+        border-top: none;
+    }
+    
+    
+    
+    .xso031l {
+        background: rgba(255, 0, 0, .15); /* Semi-transparent red */
+  border: 1px solid rgba(255, 0,0, 0.7); /* Neon border */
+  box-shadow: 
+    0 0 10px rgba(255, 0, 0, 0.8), /* Inner glow */
+    0 0 20px rgba(255, 0, 0, 0.6); /* Outer glow */
+  
+  /* Diagonal corner cut */
+  clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(100% - 20px), 
+    calc(100% - 20px) 100%, 
+    0% 100%
+  );
+        color: red;
+  border-radius:0;
+  /* Cyberpunk scanline effect */
+  background-image: 
+    linear-gradient(
+      rgba(255, 0, 0, 0.1) 1px,
+      transparent 1px
+    );
+  background-size: 100% 2px;
+  animation: scan 2s linear infinite;
+        
+    }
+    ._amis {
+  background:
+rgba(4, 247, 255, .15);
+    background-image: none;
+    background-size: auto;
+  border:
+1px solid rgba(4, 247, 255, 0.7);
+  box-shadow: 0 0 10px rgba(4, 247, 255, .8), 0 0 20px rgba(4, 247, 255, .6);
+  clip-path: polygon( 0% 0%, 100% 0%, 100% calc(100% - 20px), calc(100% - 20px) 100%, );
+  color: red;
+  border-radius:
+0;
+  background-image: linear-gradient( rgba(4, 247, 255, 0.1) 1px, transparent 1px );
+  background-size: 100% 2px;
+  animation:
+scan 2s linear infinite;
+}
+    .x1ky8ojb {
+        height: 8vh
+    }
+    ._ai0a { 
+         
+         color: red;
+        }
+    #all-filter:hover,#unread-filter:hover,#favorites-filter:hover,#group-filter:hover,
+    #all-filter[aria-pressed="true"],#unread-filter[aria-pressed="true"],#favorites-filter[aria-pressed="true"],#group-filter[aria-pressed="true"]{
+             background: rgba(255, 170, 0, .15); /* Semi-transparent red */
+  border: 1px solid rgba(255, 170,0, 0.7); /* Neon border */
+  box-shadow: 
+    0 0 10px rgba(255, 170, 0, 0.8), /* Inner glow */
+    0 0 20px rgba(255, 170, 0, 0.6); /* Outer glow */
+  margin-top: 2vh;
+                height: 42px;
+  /* Diagonal corner cut */
+  clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(100% - 20px), 
+    calc(100% - 20px) 100%, 
+    0% 100%
+  );
+        color: rgba(255, 170,0,.85);
+  border-radius:0;
+  /* Cyberpunk scanline effect */
+  background-image: 
+    linear-gradient(
+      rgba(255, 170, 0, 0.1) 1px,
+      transparent 1px
+    );
+  background-size: 100% 2px;
+  animation: scan 2s linear infinite;
+    }
+        #all-filter,#unread-filter,#favorites-filter,#group-filter   {
+      background: rgba(255, 0, 0, .15); /* Semi-transparent red */
+  border: 1px solid rgba(255, 0,0, 0.7); /* Neon border */
+  box-shadow: 
+    0 0 10px rgba(255, 0, 0, 0.8), /* Inner glow */
+    0 0 20px rgba(255, 0, 0, 0.6); /* Outer glow */
+  margin-top: 2vh;
+                height: 42px;
+  /* Diagonal corner cut */
+  clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(100% - 20px), 
+    calc(100% - 20px) 100%, 
+    0% 100%
+  );
+        color: red;
+  border-radius:0;
+  /* Cyberpunk scanline effect */
+  background-image: 
+    linear-gradient(
+      rgba(255, 0, 0, 0.1) 1px,
+      transparent 1px
+    );
+  background-size: 100% 2px;
+  animation: scan 2s linear infinite;
+}
+        .x1bmedo { 
+        background-color: rgba(0,0,0,0)}
+    span[aria-hidden] {
+        color: #ff6200;
+    }
+    .x1bmpntp {
+    background: transparent
+}
+    .message-in ._amk6 {
+        background:
+    rgba(70,220,255, .15);
+        background-image: none;
+        background-size: auto;
+      border:
+    1px solid rgba(70,220,255, 0.7);
+      box-shadow: 0 0 3px rgba(70,220,255, .8), 0 0 20px rgba(70,220,255, .6);
+  clip-path: polygon(
+    0% 0%,
+    calc(100% - 10px) 0%, /* Diagonal cut starts here */
+    100% 12px,            /* Top-right notch */
+    100% 100%,            /* Follow right edge */
+    0% 100%               /* Close shape */
+  );
+      color: red;
+      border-radius:
+    0;
+      background-image: linear-gradient( rgba(70,220,255, 0.1) 1px, transparent 1px );
+      background-size: 100% 2px;
+      animation:
+    scan 2s linear infinite;
+    }
+    .message-out ._amk6 {
+              background:
+    rgba(255,0,0, .15);
+        background-image: none;
+        background-size: auto;
+      border:
+    1px solid rgba(255,0,0, 0.7);
+      box-shadow: 0 0 3px rgba(255,0,0, .8), 0 0 20px rgba(255,0,0, .6);
+  clip-path: polygon(
+    0% 0%,
+    calc(100% - 10px) 0%, /* Diagonal cut starts here */
+    100% 12px,            /* Top-right notch */
+    100% 100%,            /* Follow right edge */
+    0% 100%               /* Close shape */
+  );
+      color: red;
+      border-radius:
+    0;
+      background-image: linear-gradient( rgba(255,0,0, 0.1) 1px, transparent 1px );
+      background-size: 100% 2px;
+      animation:
+    scan 2s linear infinite;
+        
+    }
+   span[data-plain-text]  { 
+
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  color: transparent !important; /* Hide base text color */
+  
+  /* Neon orange text effect */
+  text-shadow: 
+    0 0 2.2px #0ef,       /* Core glow */
+    0 0 2px #0efa,     /* Mid glow */
+    0 0 0.6px #00d5ff88,    /* Outer glow */
+    0 0 0.8px #00f2ff33 !important;    /* Atmospheric glow */
+  
+
+  animation: text-flicker 3s infinite alternate;    }
+  ._ao3e  { 
+
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  color: transparent !important; /* Hide base text color */
+  
+  /* Neon orange text effect */
+  text-shadow: 
+    0 0 2.2px #ff5e00,       /* Core glow */
+    0 0 2px #ff5e00aa,     /* Mid glow */
+    0 0 0.6px #ff3c0088,    /* Outer glow */
+    0 0 0.8px #ff000033;    /* Atmospheric glow */
+  
+
+  animation: text-flicker 3s infinite alternate;    }
+    
+    
+    @keyframes text-flicker {
+  0%, 19%, 23%, 27%, 100% { opacity: 0.9; }
+  20%, 24% { opacity: 0.6; } /* Simulates CRT flicker */
+}
+    
+._ai01 , .x1ky8ojb,._ak72._ak7_ {
+      background:
+    rgba(255,0,0, .15);
+        background-image: none;
+        background-size: auto;
+      border:
+    1px solid rgba(255,0,0, 0.7);
+      box-shadow: 0 0 10px rgba(255,0,0, .8), 0 0 20px rgba(255,0,0, .6);
+      clip-path: polygon( 0% 0%, 100% 0%, 100% calc(100% - 20px), calc(100% - 20px) 100%, );
+      color: red;
+      border-radius:
+    0;
+      background-image: linear-gradient( rgba(255,0,0, 0.1) 1px, transparent 1px );
+      background-size: 100% 2px;
+      animation:
+    scan 2s linear infinite;
+    }
+
+  
+        ._amio span {
+        color: rgba(4, 247, 255, .15);
+    }
+      ._amio span:hover {
+        color: rgba(254, 55, 55, .45);
+          transition: 0.45s
+    }
+    .xso031::before {
+      content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Place behind content */
+  
+  /* Match the clip-path of parent */
+  clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(100% - 8px), 
+    calc(100% - 8px) 100%, 
+    0% 100%
+  );
+        
+
+    
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+
+
+
+
