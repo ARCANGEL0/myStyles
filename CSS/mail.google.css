@@ -1,0 +1,433 @@
+/* ==UserStyle==
+@name         Gmail Cyberpunk 2077
+@version      20240410.14.53
+@namespace    https://userstyles.world/user/yourname
+@description  Cyberpunk-themed dark style for Gmail
+@author       Your Name
+@license      MIT
+==/UserStyle== */
+
+@-moz-document url-prefix("https://mail.google.com/") {
+
+    :root {
+        --cyber-bg-base: #0d0d0d; /* Dark base */
+        --cyber-bg-subtle: #1c1c1c; /* Subtle background */
+        --cyber-fg-base: #00ffcc; /* Base text color */
+        --cyber-fg-subtle: #a0a0a0; /* Subtle text color */
+        --cyber-accent: #ff0000d9; /* Accent color */
+        --cyber-accent-hover: #ff7505; /* Accent hover color */
+        --cyber-bg-subtle-light: #212121; /* Light subtle background */
+    }
+
+    *:not(.qj):not(.aKp):not(.O5):not(.J-J5-Ji):not(.T-I-ax7):not(.aAy):not(.aKy):not(.aKw):not(.aRz):not(.aT5-aOt-I-JX-Jw):not(.d-Na-J3):not(.amJ):not(.amI):not(.T-I-J):not(.bsU):not(.nU):not(.aio):not(.OT):not(.T-I.T-I-KE.L3):not(.n0):not(.n6):not(.ait):not(.CJ):not(.aim):not(.TO) {
+        font-family: "Geist", sans-serif !important;
+        background-color: var(--cyber-bg-base) !important;
+        color: var(--cyber-fg-base) !important;
+                font-family: "Geist", sans-serif !important;
+  background-color: rgb(219, 14, 14) !important;
+
+  color: rgba(255, 120, 120, 0.86) !important;
+  background:
+rgba(36, 0, 5, 0.68) !important;
+ 
+
+  background-image: linear-gradient( rgba(255, 0, 0, .11) 1px, transparent 1px ) !important;
+  background-size: 100% 2px !important;
+    }
+  
+    .OQ.O2,.aKy, .OR,.OS,.aKw{
+        background: transparent !important;
+    }
+    
+    .ait:not(.nZ):not(.O5):not(.aiq), .CJ:not(.nZ):not(.aiq), .aio:not(.nZ):not(.aiq), .nU:not(.nZ):not(.aiq), .bsU:not(.nZ):not(.aiq), .n0:not(.nZ):not(.aiq){
+        background: transparent !important;
+          color: rgba(120, 255, 242, .86) !important;
+
+    }
+    body {
+        background: var(--cyber-bg-base) !important;
+    }
+
+    /* Header */
+    .gb_8c, .gb_4f, .gb_3f {
+        background-color: var(--cyber-bg-subtle) !important;
+    }  
+
+    /* Sidebar */
+    .a3s, .zA {
+        background-color: var(--cyber-bg-subtle-light) !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    .OU {
+
+  background-color: rgb(219, 14, 14) !important;
+
+  color: rgba(255, 120, 120, .86) !important;
+  background:
+rgba(36, 0, 5, 0.68) !important;
+    background-image: none !important;
+    background-size: auto !important;
+  border-left:
+1px solid rgba(50, 235, 255, 0) !important;
+  box-shadow: 0 0 2px rgba(255, 0, 0, .1), inset 0 0 8px rgba(0, 0, 0, .5) !important;
+  clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(100% - 20px), 
+    calc(100% - 20px) 100%, 
+    0% 100%
+  ) !important;
+      
+     
+        animation:
+flicker 2s infinite alternate !important;
+  background-image: linear-gradient( rgba(255, 0, 0, .32) 1px, transparent 1px ) !important;
+  background-size: 100% 2px !important;
+  clip-path: polygon( 0% 0%, 100% 0%, 100% calc(100% - 20px), calc(100% - 20px) 100%, ) !important;
+    background-image: repeating-linear-gradient(
+    rgba(255, 0, 0, 0.15) 0px,
+    rgba(255, 0, 0, 0.15) 1px,
+    transparent 1px,
+    transparent 3px
+  ) !important;
+
+  background-size: cover !important;
+  background-color: black !important;
+
+
+        border-radius: 0px !important;
+  border: 0px solid rgba(255, 0, 0, 0.7) !important;
+  border-radius: 0px !important;
+  box-shadow:
+    0 0 10px rgba(255, 0, 0, 0.5),
+    0 0 20px rgba(255, 0, 0, 0.7),
+    inset 0 0 10px rgba(255, 0, 0, 0.4) !important;
+
+  /* 💡 Flicker animation */
+  animation: flicker 2s infinite alternate !important;   
+        
+    }
+    .O2.O2 .OT {
+    background-image: 
+    linear-gradient(red, red), /* red layer */
+    url('https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/settings_baseline_p900_24dp.png'), /* for mask */
+  
+  background-repeat: no-repeat, no-repeat, repeat;
+background: rgba(215,0,0,.85) !important;
+
+  background-position: center center, center center, center;
+
+  -webkit-mask-image: url('https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/settings_baseline_p900_24dp.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: 24px;
+
+  mask-image: url('https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/settings_baseline_p900_24dp.png');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: 24px;
+
+background: rgba(255,0,0,.85)
+  border: 2px solid rgba(255, 0, 0, .86);
+  animation: flicker 1.5s infinite alternate;
+    }
+    
+  .a4f > .OT {
+    background-image: 
+    linear-gradient(red, red), /* red layer */
+    url('https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/account_circle_baseline_e900_24dp.png'), /* for mask */
+  
+  background-repeat: no-repeat, no-repeat, repeat;
+background: rgba(215,0,0,.85) !important;
+  background-position: center center, center center, center;
+
+  -webkit-mask-image: url('https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/account_circle_baseline_e900_24dp.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: 32px;
+
+  mask-image: url('https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/account_circle_baseline_e900_24dp.png');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: 32px;
+
+
+  border: 2px solid rgba(255, 0, 0, .86);
+  animation: flicker 1.5s infinite alternate;
+    }
+    
+       
+      .a4e > .OT {
+    background-image: 
+    linear-gradient(red, red), /* red layer */
+    url('https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/smartphone_baseline_n900_24dp.png'), /* for mask */
+  
+  background-repeat: no-repeat, no-repeat, repeat;
+background: rgba(215,0,0,.85) !important;
+  background-position: center center, center center, center;
+
+  -webkit-mask-image: url('https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/smartphone_baseline_n900_24dp.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: 32px;
+
+  mask-image: url('https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/smartphone_baseline_n900_24dp.png');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: 32px;
+
+
+  border: 2px solid rgba(255, 0, 0, .86);
+  animation: flicker 1.5s infinite alternate;
+    }
+      .a4b > .OT {
+    background-image: 
+    linear-gradient(red, red), /* red layer */
+    url('https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/group_add_baseline_t900_24dp.png'), /* for mask */
+  
+  background-repeat: no-repeat, no-repeat, repeat;
+background: rgba(215,0,0,.85) !important;
+  background-position: center center, center center, center;
+
+  -webkit-mask-image: url('https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/group_add_baseline_t900_24dp.png');
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: 32px;
+
+  mask-image: url('https://ssl.gstatic.com/ui/v1/icons/mail/gm3/1x/group_add_baseline_t900_24dp.png');
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: 32px;
+
+
+  border: 2px solid rgba(255, 0, 0, .86);
+  animation: flicker 1.5s infinite alternate;
+    }
+    
+    .V3 {
+        margin-top: 50px !important;
+    }
+    /* Compose Button */
+    .T-I.T-I-KE.L3 {
+       position: relative !important;
+  display: flex !important;
+  flex-direction: row !important;
+  height: 72px !important;
+  pointer-events: all !important;
+  background-color: rgb(14, 219, 195) !important;
+  position: relative !important;
+
+  margin-bottom: 8px !important;
+  color: rgba(120, 255, 242, .86) !important;
+  background:
+rgba(36, 0, 5, 0.68) !important;
+    background-image: none !important;
+    background-size: auto !important;
+  border-left:
+1px solid rgba(50, 235, 255, .52) !important;
+  box-shadow: 0 0 2px rgba(0, 255, 229, .1), inset 0 0 8px rgba(0, 0, 0, .5) !important;
+  clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(100% - 20px), 
+    calc(100% - 20px) 100%, 
+    0% 100%
+  ) !important;
+      
+        border-radius: 8px; 
+        animation:
+flicker 2s infinite alternate !important;
+  background-image: linear-gradient( rgba(0, 255, 225, .32) 1px, transparent 1px ) !important;
+  background-size: 100% 2px !important;
+  clip-path: polygon( 0% 0%, 100% 0%, 100% calc(100% - 20px), calc(100% - 20px) 100%, ) !important;
+          width: 70%;
+    }
+    
+   @keyframes flicker {
+        0%, 19%, 23%, 27%, 100% { opacity: 1; }
+        20%, 24% { opacity: 0.6; }
+    }
+
+  
+    .ah9, .TK {
+        border-radius: 0px !important
+    }
+    
+    .O5 {
+  pointer-events: all !important;
+  background-color: rgb(14, 219, 195) !important;
+  position: relative !important;
+
+  color: rgba(120, 255, 242, .86) !important;
+  background:
+rgba(2, 124, 117, .68) !important;
+    background-image: none !important;
+    background-size: auto !important;
+  border:
+1px solid rgba(50, 235, 255, .52) !important;
+  box-shadow: 0 0 6px rgba(0, 255, 229, .64), inset 0 0 8px rgba(0, 0, 0, .5) !important;
+
+        animation:
+flicker 2s infinite alternate !important;
+  background-image: linear-gradient( rgba(0, 255, 225, .12) 1px, transparent 1px ) !important;
+  background-size: 100% 2px !important;
+    }
+    .n6,.TO{
+         position: relative !important;
+  pointer-events: all !important;
+  background-color: rgb(14, 219, 195) !important;
+  position: relative !important;
+
+  margin-bottom: 2px !important;
+  color: rgba(120, 255, 242, .86) !important;
+  background:
+rgba(0, 36, 33, .68) !important;
+    background-image: none !important;
+    background-size: auto !important;
+  border-left:
+1px solid rgba(50, 235, 255, .52) !important;
+  box-shadow: 0 0 6px rgba(0, 255, 229, .1), inset 0 0 8px rgba(0, 0, 0, .5) !important;
+ clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(100% - 6px), 
+    calc(100% - 10px) 100%, 
+    0% 100%
+  );
+        border-radius: 4px; 
+        animation:
+flicker 2s infinite alternate !important;
+  background-image: linear-gradient( rgba(0, 255, 225, .71) 1px, transparent 1px ) !important;
+  background-size: 100% 2px !important;
+    }
+    .TK .TO, .n6 .ah9, .CL {
+        border-radius: 0px !important
+    }
+      .T-I.T-I-KE.L3:hover, .n6:hover,.TO:hover,.nZ,.aiq , .OT:hover, .OU:hover {
+          color: var(--cyber-accent-hover) !important;
+        background-color: var(--cyber-accent-hover) !important;
+    }
+   @keyframes flicker {
+        0%, 19%, 23%, 27%, 100% { opacity: 1; }
+        20%, 24% { opacity: 0.6; }
+    }
+
+    .aRz{
+        margin-left: 24px !important;
+    }
+    
+    .aAy[aria-selected="true"]::before {
+        background-color: var(--cyber-accent-hover) !important;
+    }
+      
+    .aAy[aria-selected="true"]
+    {
+       color: var(--cyber-accent-hover) !important;
+        background-color: var(--cyber-accent-hover) !important;
+    }
+    .O6 ,.GR,.aRz
+    { 
+        border: 0px !important;
+        
+        clip-path: polygon(
+    0% 0%, 
+    100% 0%, 
+    100% calc(100% - 20px), 
+    calc(100% - 20px) 100%, 
+    0% 100%
+  ) !important;
+  /* 🔴 Scanlines */
+  background-image: repeating-linear-gradient(
+    rgba(255, 0, 0, 0.15) 0px,
+    rgba(255, 0, 0, 0.15) 1px,
+    transparent 1px,
+    transparent 3px
+  ) !important;
+  background-color: black;
+  background-size: cover;
+
+  /* 🔴 Outer + Inner Glow */
+  border: 2px solid rgba(255, 0, 0, 0.7);
+  border-radius: 12px;
+  box-shadow:
+    0 0 10px rgba(255, 0, 0, 0.5),   /* outer glow */
+    0 0 6px rgba(255, 0, 0, 0.7),   /* outer glow */
+    inset 0 0 20px rgba(255, 0, 0, 0.4),  /* inner glow */
+    inset 0 0  0px rgba(255, 0, 0, 0.6);  /* deeper inner glow */
+
+  /* 💡 Flicker animation */
+  animation: flicker 2s infinite alternate;
+  
+    }
+    /* Email list hover effect */
+    .zA:hover {
+        background-color: rgba(255, 255, 255, 0.1) !important;
+    }
+
+    /* Email title and sender color */
+    .y6 {
+        color: var(--cyber-fg-base) !important;
+    }
+
+    /* Email snippet color */
+    .xW.xY {
+        color: var(--cyber-fg-subtle) !important;
+    }
+
+    /* Message container */
+    .ii.gt {
+        background-color: var(--cyber-bg-subtle) !important;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        position: relative;
+        overflow: hidden;
+    }
+
+    @keyframes text-flicker {
+  0%, 19%, 23%, 27%, 100% { opacity: 0.9; }
+  20%, 24% { opacity: 0.6; } /* Simulates CRT flicker */
+}
+    /* Scanlines on message container */
+    .ii.gt::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+        background-size: 100% 2px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 20px), calc(100% - 20px) 100%, 0% 100%);
+        animation: flicker 2s linear infinite;
+    }
+
+    /* Link color */
+    a {
+        color: var(--cyber-accent) !important;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: var(--cyber-accent-hover) !important;
+    }
+
+    /* Footer */
+    .gb_8d {
+        background-color: var(--cyber-bg-subtle-light) !important;
+        color: var(--cyber-fg-subtle) !important;
+    }
+   @keyframes flicker {
+  0%, 100% { opacity: 1; }
+  45% { opacity: 0.9; }
+  50% { opacity: 0.6; }
+  55% { opacity: 1; }
+}
+    /* Custom animation for elements */
+ 
+    /* Animation for buttons and email list items */
+    .T-I.T-I-KE.L3, .zA {
+        animation: flicker 3s infinite alternate;
+    }
+
+   
+}
