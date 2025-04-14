@@ -19,7 +19,7 @@
         --cyber-bg-subtle-light: #212121; /* Light subtle background */
     }
 
-    *:not(.qj):not(.aKp):not(.O5):not(.J-J5-Ji):not(.T-I-ax7):not(.aAy):not(.aKy):not(.aKw):not(.aRz):not(.aT5-aOt-I-JX-Jw):not(.d-Na-J3):not(.amJ):not(.amI):not(.T-I-J):not(.bsU):not(.nU):not(.aio):not(.OT):not(.T-I.T-I-KE.L3):not(.n0):not(.n6):not(.ait):not(.CJ):not(.aim):not(.TO) {
+    *:not(.qj):not(.aKp):not(.O5):not(.J-J5-Ji):not(.T-I-ax7):not(.aAy):not(.aaA):not(.aaB):not(.aKy):not(.aKw):not(.aRz):not(.aT5-aOt-I-JX-Jw):not(.d-Na-J3):not(.amJ):not(.amI):not(.T-I-J):not(.bsU):not(.nU):not(.aio):not(.OT):not(.T-I.T-I-KE.L3):not(.n0):not(.n6):not(.ait):not(.CJ):not(.aim):not(.TO) {
         font-family: "Geist", sans-serif !important;
         background-color: var(--cyber-bg-base) !important;
         color: var(--cyber-fg-base) !important;
@@ -34,7 +34,15 @@ rgba(36, 0, 5, 0.68) !important;
   background-image: linear-gradient( rgba(255, 0, 0, .11) 1px, transparent 1px ) !important;
   background-size: 100% 2px !important;
     }
-  
+    .aZ .J-Z-axO .J-Z-M-I-Jm {
+         color: rgba(255, 20, 20, 0.86) !important;
+    }
+    .aaA, .aaB {
+        width: 20px;
+  height: 20px;
+  filter: invert(14%) sepia(96%) saturate(7473%) hue-rotate(338deg) brightness(101%) contrast(109%);
+
+    }
     .OQ.O2,.aKy, .OR,.OS,.aKw{
         background: transparent !important;
     }
@@ -58,7 +66,10 @@ rgba(36, 0, 5, 0.68) !important;
         background-color: var(--cyber-bg-subtle-light) !important;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     }
-    .OU {
+    .T-I-atl {
+        background: transparent !important;
+  color: rgba(255, 120, 120, .86) !important;    }
+    .OU,.dC {
 
   background-color: rgb(219, 14, 14) !important;
 
